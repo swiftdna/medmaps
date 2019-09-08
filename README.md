@@ -10,7 +10,7 @@ Make sure you are in the root path and execute below commands
 
 Above code would start server on port 4000
 
-# Steps to UI code
+# Steps to run UI code
 1. cd `client` folder
 2. npm install
 3. npm start
