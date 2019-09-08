@@ -5,7 +5,7 @@ const APP_CONSTANTS = require('../config/constants');
 module.exports = {
 	getLocation: (req, res, next) => {
 		const {latitude, longitude} = req.query;
-		request.get(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=${APP_CONSTANTS.API_KEY}`, (err, response) => {
+		request.get(`${APP_CONSTANTS.GMAPS_URL}/geocode/json?latlng=${latitude},${longitude}&key=${APP_CONSTANTS.API_KEY}`, (err, response) => {
 			assert.equal(err, null);
 			if (response && response.body) {
 				const locationParams = JSON.parse(response.body);
