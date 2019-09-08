@@ -1,0 +1,51 @@
+.App {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.create-btn {
+  float: right;
+  margin-top: 20px;
+}
+
+.input-field > .btn:not(:last-child) {
+  margin-right: 8px;
+}
+
+.action-icons > .btn-small:not(:last-child) {
+  margin-right: 4px;
+}
+
+.error_panel {
+  padding: 0 10px;
+  margin: 10px;
+  border: 1px solid #D32F2F;
+  border-radius: 3px;
+}
+
+.helper_text {
+  color: #808080;
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+.status_text {
+  color: #808080;
+  margin: 2px;
+}
+
+.tht {
+  display: block;
+  max-width: 100px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: default;
+}
+
+.MapMarker h3 {
+  margin-left: 0px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
